@@ -120,13 +120,75 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="coolStuffWrapper">
-                    <button type="button" class="btn btn-lg coolStuffBtn">Get cool stuff!</button>
+                    <button type="button" class="btn btn-lg coolStuffBtn" data-toggle="modal" data-target="#coolStuffModal">Get cool stuff!</button>
                 </div>
             </div>
         </div>
+        
+        <!-- Modal -->
+            <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="contentLabel">Get exclusive content!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="assets/KFS_modal.png" class="img-fluid">  
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="modalFormWrapper">
+                                    <form>
+                                      <div class="form-group">
+                                        <label for="forName">What's your name?</label>
+                                        <input type="text" class="form-control" id="forName" placeholder="Name">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="formEmail">Where should we send your cool content?</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="e-mail">
+                                      </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-    
-    
+        
+<!-- SECTION 2 -->
+    <div class="sectionLight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <img class="img-fluid imgCenter" src="assets/kickflip.jpg">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-danger btn-large  btnCenter">Kickflip</button>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     
     
