@@ -41,5 +41,31 @@ h5.modal-title {
 .btnCenter {
     display: block;
     margin: auto;
-    
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 62%;
+}
+
+.footerImg {
+    padding: 10px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-google-plus-square {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #fff;
+}
+
+.socialWrap {
+    margin: auto;
 }
